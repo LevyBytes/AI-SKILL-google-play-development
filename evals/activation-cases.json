@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "cases": [
+    {
+      "prompt": "Prepare English and Spanish Google Play screenshots for phone and both tablet sizes.",
+      "activate": true,
+      "first_reference": "references/screenshot-requirements.md",
+      "expected": "Establish approved copy, category matrix and governing requirements before source capture."
+    },
+    {
+      "prompt": "Make the store screenshots sharper without enlarging the current PNGs.",
+      "activate": true,
+      "first_reference": "references/source-rendering.md",
+      "expected": "Render original UI, fonts and vectors directly at the selected final size."
+    },
+    {
+      "prompt": "This Google Play phone screenshot batch passed. Is one image in each language enough?",
+      "activate": true,
+      "first_reference": "references/validation-commands.md",
+      "expected": "Separate batch conformance from per-language minimums and run complete-set checks."
+    },
+    {
+      "prompt": "The saved XR validator accepts 16:9 and 15 MB but the public page says 8:5 and 8 MB.",
+      "activate": true,
+      "first_reference": "references/screenshot-requirements.md",
+      "expected": "Preserve the versioned preset, establish current Console requirements and disclose the conflict."
+    },
+    {
+      "prompt": "Check why agenda_tablet7.png fails the localized screenshot manifest.",
+      "activate": true,
+      "first_reference": "references/validation-failures.md",
+      "expected": "Inspect localized stem, category suffix, actual format, bytes and manifest identity."
+    },
+    {
+      "prompt": "Sign my Android App Bundle and upload a production Play release.",
+      "activate": true,
+      "first_reference": "references/release/index.md",
+      "expected": "Establish signing-key roles, release preparation and Console upload requirements; preserve the caller's external-action authorization boundary."
+    },
+    {
+      "prompt": "Add a Google Play Billing subscription to my app.",
+      "activate": true,
+      "first_reference": "references/billing/index.md",
+      "expected": "Route through billing setup and the subscription contracts, including purchase verification and acknowledgement."
+    },
+    {
+      "prompt": "How do I validate a Play Integrity standard requestHash and recover from a dialog?",
+      "activate": true,
+      "first_reference": "references/integrity/index.md",
+      "expected": "Follow standard workflow, request details and remediation; bind the hash and verify on the server, then prepare a fresh provider after remediation."
+    },
+    {
+      "prompt": "Implement Play Asset Delivery for our Unity game and test texture compression targeting.",
+      "activate": true,
+      "first_reference": "references/delivery/index.md",
+      "expected": "Choose asset delivery, Unity setup, format targeting and local or internal-sharing testing; keep engine version boundaries."
+    },
+    {
+      "prompt": "Publish food shopping carts and reorder content using Engage SDK.",
+      "activate": true,
+      "first_reference": "references/engage/index.md",
+      "expected": "Select the Food vertical, use AppEngageFoodClient, check per-cluster service availability and preserve cart/reorder limits and intents."
+    },
+    {
+      "prompt": "Implement Google TV Continue Watching with consent and account profiles.",
+      "activate": true,
+      "first_reference": "references/engage/index.md",
+      "expected": "Use the TV client and account-profile setup, continuation data, consent, sync and verification contracts."
+    },
+    {
+      "prompt": "Our on-demand feature module needs SplitCompat and download state handling.",
+      "activate": true,
+      "first_reference": "references/delivery/index.md",
+      "expected": "Choose feature delivery and connect module configuration, install requests, state handling and SplitCompat application/activity setup."
+    },
+    {
+      "prompt": "Use a flexible Google Play in-app update and resume a downloaded update after restart.",
+      "activate": true,
+      "first_reference": "references/in-app-updates/index.md",
+      "expected": "Choose the Android flow, launch FLEXIBLE updates, monitor state, prompt completion and resume safely."
+    },
+    {
+      "prompt": "Our in-app review popup is not appearing on an internal Play test track.",
+      "activate": true,
+      "first_reference": "references/in-app-reviews/index.md",
+      "expected": "Check review timing, quotas, account eligibility and test limitations; do not infer whether the dialog was shown from completion alone."
+    },
+    {
+      "prompt": "Offer a Google Play install prompt for the user's other eligible devices.",
+      "activate": true,
+      "first_reference": "references/install-prompts/index.md",
+      "expected": "Check cross-device eligibility and user privacy, then integrate and test with the documented Play account and version conditions."
+    },
+    {
+      "prompt": "Automate Play publishing and collect Android vitals reports.",
+      "activate": true,
+      "first_reference": "references/automation/index.md",
+      "expected": "Distinguish the Publishing API from the Reporting API and follow their primary authentication and service references."
+    },
+    {
+      "prompt": "Implement developer-rendered billing choice with external web payments.",
+      "activate": true,
+      "first_reference": "references/billing/index.md",
+      "expected": "Establish program eligibility and use Scenario 2B with linked setup, choice information, reporting token, external launch and replacement behavior."
+    },
+    {
+      "prompt": "Build an Android layout with Jetpack Compose, unrelated to Play services.",
+      "activate": false,
+      "first_reference": null,
+      "expected": "General Android UI development is outside this skill's Play-specific scope."
+    },
+    {
+      "prompt": "Connect this app to Google Drive and Google Maps APIs.",
+      "activate": false,
+      "first_reference": null,
+      "expected": "Unrelated Google API integrations do not select this skill."
+    },
+    {
+      "prompt": "Take a screenshot of this spreadsheet for a meeting.",
+      "activate": false,
+      "first_reference": null,
+      "expected": "Do not activate a Play listing workflow for an unrelated screenshot."
+    }
+  ]
+}

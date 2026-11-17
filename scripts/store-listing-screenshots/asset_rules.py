@@ -1,4 +1,4 @@
-"""Owner's Play Console screenshot specification, captured 2026-11-05; not a live policy fetch."""
+"""Explicit Play Console screenshot preset; verify target requirements before publication."""
 from dataclasses import asdict, dataclass
 
 
@@ -24,7 +24,7 @@ RULES = {
     "xr": Rule("xr", 720, 7680, 15_000_000, 4),
 }
 POLICY = {
-    "version": "owner-console-2026-11-05",
+    "version": "play-console-v1",
     "authority": "Owner-supplied Google Play Console limits; recheck Console before future publication.",
     "reference": "https://support.google.com/googleplay/android-developer/answer/9866151",
     "formats": ["PNG", "JPEG"],
